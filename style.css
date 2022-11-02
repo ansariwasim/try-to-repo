@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+:root {
+  --primary: hsla(229, 39%, 11%, 0.9);
+  --secondary: hsla(229, 91%, 13%, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  position: relative;
+  left: 60px;
+  width: 80vw;
+  /* height: 100vh; */
+}
+/* ------------container------------------ */
+
+.container {
+  background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url("./assets/pexels-maxyne-barcel-10402282 1.png");
+  background-size: 1200px 600px;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* ---------- NAVBAR ------------ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+  width: 75vw;
+  margin: auto;
+  position: relative;
+  top: 25px;
+}
+
+/* ------------------------------ */
+.list {
+  display: flex;
+  /* border: 2px solid black;
+  position: relative;
+  top: 5px; */
+}
+
+.list li {
+  display: flex;
+  text-decoration: none;
+  padding: 0px 18px;
+  color: #e8bd0d;
+}
+
+.logo {
+  /* background-color: red; */
+  height: 35px;
+  width: 85px;
+}
+
+.button-small {
+  width: 72px;
+  height: 35px;
+  background-color: #ff1414;
+  border: 2px solid #ff1414;
+  font-size: 15px;
+  color: white;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+.hero {
+  height: 300px;
+  width: 960px;
+  /* border: 2px solid green; */
+  position: relative;
+  top: 88px;
+  left: 80px;
+}
+
+.hero-heading {
+  color: rgb(255, 255, 28);
+  /* font-size: 100px; */
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: -30px;
+  line-height: 110px;
+}
+
+.first {
+  font-size: 105px;
+  /* color: red; */
+}
+
+.second {
+  font-size: 105px;
+  position: relative;
+  left: 150px;
+  margin-top: -15px;
+}
+
+.third {
+  font-size: 105px;
+  position: relative;
+  left: 85px;
+  margin-top: -11px;
+}
+/* ------------------------------ */
+.button-large {
+  height: 55px;
+  width: 210px;
+  border: 2px solid #ff505f;
+  color: white;
+  background-color: #ff505f;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: 323px;
+  top: -22px;
+}
+
+.logg {
+  height: 100px;
+  /* background-color: green; */
+  position: relative;
+  left: 850px;
+}
